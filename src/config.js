@@ -1,11 +1,12 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "ca-central-1",
     BUCKET: "bobop-serverless-notes-uploads"
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://7qnrw7wso7.execute-api.us-east-2.amazonaws.com/prod/"
+    URL: "https://7qnrw7wso7.execute-api.us-east-2.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-2",
